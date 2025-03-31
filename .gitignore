@@ -1,6 +1,7 @@
+dist/
+*.js
+*.tsbuildinfo
 *.exe
 *.out
 *.class
-*.js
-*.json
-*.tsbuildinfo
+test.ts
