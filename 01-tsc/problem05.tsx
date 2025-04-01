@@ -1,3 +1,5 @@
+// Create a React component that takes todos as an input and renders them
+
 // todos.tsx
 // A react component
 

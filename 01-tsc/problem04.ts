@@ -1,11 +1,13 @@
 // Create a function that takes another function as input, and runs it after 1 second.
 
-function funcRunner(argFunction: () => void) {
-    setTimeout(argFunction, 1000);
+function delayedCall(argFunction: (x: number, y: number) => number) {
+  setTimeout(() => {
+    console.log(argFunction(5, 10));
+  }, 1000);
 }
 
-function logger() {
-    console.log("Fuck you!!!");
+function add(x: number, y: number): number {
+  return x + y;
 }
 
-funcRunner(logger);
+delayedCall(add);
