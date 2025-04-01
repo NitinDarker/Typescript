@@ -1,3 +1,4 @@
+// Interface example
 const user: userType = {
   firstName: "Nitin",
   email: "email@gmail.com",
@@ -18,6 +19,3 @@ interface userType {
     isUrban?: boolean;
   };
 }
-
-console.log(user)
-console.log(typeof user)
