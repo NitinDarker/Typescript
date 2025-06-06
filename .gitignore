@@ -5,3 +5,6 @@ dist/
 *.out
 *.class
 test.ts
+.vscode/
+.idea/
+*.iml
